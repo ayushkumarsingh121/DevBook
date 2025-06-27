@@ -30,12 +30,13 @@
   /* gap: 10px; */
 }
 
-#containerchild2{
-  width: 35%;
+#containerchild2 {
+  width: 40%;
+  position: relative; 
 }
 
 #containerchild1{
-  width: 50%;
+  width: 60%;
   position: relative;
   padding: 50px;
   /* background-color: rgb(138, 235, 28); */
@@ -112,20 +113,29 @@ blockquote{
   color: #6f75a7;
 }
 
+.book-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.book-wrapper img {
+  display: block;
+  height: 725px;
+}
+
 .bookbatch {
-  width: 100px;
-  height: 100px;
-  padding-top: 25px;
-  font-size: 1.25rem;
+  width: 120px;
+  height: 90px;
+  padding-top: 35px;
+  font-size: 1.45rem;
   position: absolute;
-  right: 0; /* Position it on the right side */
-  top: -2rem;
+  top: 0;
+  right: 0;
   background: #5cb377;
-  border-radius: 50%;
+  border-radius: 100%;
   text-align: center;
   color: #fff;
   line-height: 1;
   font-weight: bold;
-  transform: translateX(50%);
+  transform: translate(-10%, -30%); 
 }
-
