@@ -7,7 +7,7 @@
 
 #header{
   display: flex;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
   color: rgb(0, 0, 0);
   position: static;
   margin: 16px 12px;
@@ -17,28 +17,27 @@
 #container{
   box-sizing: border-box;
   width: 100%;
-  height: 500px;
-  border: 2px solid rgb(255, 0, 0);
+  height: 700px;
+  /* border: 2px solid rgb(255, 0, 0); */
   display: flex;
   justify-content: space-evenly;
   padding: 10px 70px;
 }
 
 #container > div{
-  border: 5px solid teal;
-  height: 100%;
-  /* width: 45%; */
+  /* border: 5px solid teal; */
   display: flex;
   /* gap: 10px; */
 }
 
 #containerchild2{
-  width: 30%;
-  background-color: aqua;
+  width: 35%;
 }
 
 #containerchild1{
   width: 50%;
+  position: relative;
+  padding: 50px;
   /* background-color: rgb(138, 235, 28); */
 }
 
@@ -49,6 +48,17 @@
   width: 100%;
   /* background-color: rgb(226, 166, 166); */
   margin: auto;
+}
+
+#textarea > p{
+  font-size: 20px;
+  color: #4c527D;
+}
+
+#textarea > h1{
+  font-size: 40px;
+  line-height:50px;
+  color: #1c1e2e;
 }
 
 .buttonArea > button{
@@ -62,6 +72,7 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
+  width: 163px;
 }
 
 #btn2{
@@ -70,4 +81,51 @@
   font-weight: bold;
   cursor: pointer;
   border: 2px solid #ed6524;
+  width: 163px;
 }
+
+#containerchild2 > img{
+  height:725px;
+}
+
+blockquote{
+  background-color:#f5f8fc;
+  padding: 1.5rem;
+  margin: 0 0 1rem;
+  border-left: 4px solid #f5a782;
+  font-style: italic;
+  line-height:25px;
+}
+
+.data > img{
+  height:60px;
+  width: 60px;
+}
+
+.data{
+  display: flex;
+  gap:20px;
+  line-height:30px;
+}
+
+.datatext > p{
+  color: #6f75a7;
+}
+
+.bookbatch {
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 0; /* Position it on the right side */
+  top: -2rem;
+  background: #5cb377;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;
+  transform: translateX(50%);
+}
+
