@@ -146,15 +146,14 @@ blockquote {
 .second-container {
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: auto;
   background: #f6fcf8;
 }
 
 .content {
   width: 90%;
-  /* height: 400px; */
-  border: 5px solid red;
+  /* border: 5px solid red; */
   margin: 100px auto;
 }
 
@@ -166,27 +165,90 @@ blockquote {
 }
 
 .content > .writingtext{
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
   color: #4c527D;
-  margin: 0 88px 48px;
+  margin: auto;
+  /* border: 2px solid blue; */
+  max-width: 760px;
 }
 
 .boxArea{
+  margin: 50px;
   text-align: center;
-  border: 10px solid purple;
+  /* border: 10px solid purple; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
 
 .boxArea > .box{
-  border: 5px solid orange;
+  /* border: 5px solid orange; */
   text-align: center;
 }
 
 .item-icon > i{
   font-size: 3rem;
   color: #ed6524;
-  padding: 10px;
+  padding: 20px;
+}
+
+.box > h3 {
+  padding-bottom:15px;
+}
+
+.box > .item-des{
+  padding-bottom: 15px;
+  color: #4c527d;
+}
+
+/* ------------------------third container------------- */
+
+.third-container{
+  /* width: 100%; */
+  /* height: auto; */
+  /* border: 12px solid rgb(255, 0, 0); */
+   background: #f6fcf8;
+}
+.third-container > h1{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size:50px;
+  /* border: 2px solid black; */
+  padding: 25px 0;
+  margin:50px 0 ;
+}
+.tab-container{
+  width: 50%;
+  height: auto;
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.phone-img > img{
+  max-width:400px;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+li{
+  margin:25px;
+}
+
+.phnBtn > button {
+  padding:0.875rem 2.5rem;
+  background: #ed6524;
+  color: #f6fcf8;
+  border-radius:2rem;
+  border: none;
+  font-weight: 600;
+  margin:30px;
+}
+
+.phone-textarea{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin: auto;
 }
