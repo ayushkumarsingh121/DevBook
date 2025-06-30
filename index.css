@@ -209,6 +209,7 @@ blockquote {
   /* height: auto; */
   /* border: 12px solid rgb(255, 0, 0); */
    background: #f6fcf8;
+   padding-bottom: 100px;
 }
 .third-container > h1{
   text-align: center;
@@ -252,3 +253,55 @@ li{
   text-align: center;
   margin: auto;
 }
+
+/* ----------------------------------------------fourth Part--------------------------------- */
+
+.fourth-container{
+  /* width: 100%; */
+  /* border: 5px solid red; */
+  background: #ffffff;
+}
+
+.main-box{
+  width: 80%;
+  height: 600px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.main-box > h2{
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  /* border: 2px solid blue; */
+  margin: 0 0 24px 0;
+  padding: 10px;
+}
+
+.small-text > p {
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 61%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.tickmen{
+  padding-top:10px;
+  /* border:2px solid blue; */
+  width:39%;
+  margin: auto;
+}
+
+.tickmen > ul > li > p{
+  /* border: 2px solid red; */
+  margin:10px 0;
+}
+
+.tickmen > ul > li > h4{
+  font-size: 20px;
+}
+
+/* ----------------------------------------------fifth Part--------------------------------- */
