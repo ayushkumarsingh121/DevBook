@@ -361,3 +361,39 @@ li{
 
 
 /* -------------------------sixthpart-----------------  */
+
+.review-mainBox{
+  width: 100%;
+  border: 5px solid red;
+}
+
+.reviewbox{
+  width: 80%;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.reviewbox > h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.reviewbox > div {
+  text-align: center;
+  font-size: 20px;
+  color: #4c527d;
+  margin: 10px 0 50px 0;
+}
+.main-peoplebox{
+  height:400px;
+  border: 5px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.peoplebox{
+  border: 5px solid blue;
+}
+
