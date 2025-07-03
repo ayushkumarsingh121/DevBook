@@ -364,8 +364,8 @@ li{
 
 /* .review-mainBox{
   /* width: 100%; */
-  /* border: 5px solid red; */
-/* } */ 
+  /* border:5px solid red; */
+ /* }  */ 
 
 .reviewbox{
   width:90%;
@@ -469,3 +469,108 @@ li{
 
 /* ---------------------------------------- final part -------------------------- */
 
+ /* .lastpart{
+  /* height: 800px; */
+  /* border: 5px solid black; */
+/* } */ 
+
+
+.biopart{
+  /* height: 700px; */
+  color: #fff;
+  background: #ed6524;
+  padding: 3rem 0;
+}
+
+.authorBio{
+  width:50%;
+  /* border: 5px solid white; */
+  padding: 1rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-img{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.author-img > img{
+  width: 150px;
+  height: 150px;
+}
+
+.abt-author{
+  text-align: center;
+  font-size:38px;
+  margin-bottom: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.para1, .para2{
+  /* border: 2px solid black; */
+  font-size:18px;
+  margin-bottom: 1rem;
+  line-height:25px;
+}
+
+.author-links{
+  text-align: center;
+  /* border: 5px solid rgb(5, 255, 155); */
+}
+
+.author-links > h5{
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  /* border: 5px solid black; */
+}
+
+.social-list-link{
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+.social-list-link > li{
+  border: 2px solid rgb(0, 0, 0);
+  font-size:1.75rem;
+  background:rgba(118, 113, 113, 0.651);
+  border-radius:50%;
+  padding: 5px;
+  border-style: none;
+  padding:5px;
+  margin:8px;
+}
+
+i{
+  color: white;
+}
+
+.footer {
+  height: 100px;
+  /* border: 5px solid blue; */
+  display: flex;           
+  justify-content: center;    
+  align-items: center;        
+}
+
+.footer > small {
+  /* border: 2px solid red;       */
+  color: #4c527d;
+  font-size:0.9rem;
+  text-align: center;         
+  padding: 0;                 
+}
+
+.footer > small > a {
+  color: #4c527d;
+  text-decoration: none;
+}
+
+.footer > small > a:hover{
+  color: red;
+}
