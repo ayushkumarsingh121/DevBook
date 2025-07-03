@@ -20,7 +20,6 @@ To practice HTML and CSS by recreating a real-world landing page layout.
 ## 💻 What I Learned
 
 - Flexbox and Grid layouts
-- Responsive design techniques
 - Font Awesome integration
 - Button styling and hover effects
 - Typography, spacing, and layout structure
@@ -29,7 +28,6 @@ To practice HTML and CSS by recreating a real-world landing page layout.
 
 ## 🖼️ Preview Screenshot
 
-![DevBook Screenshot]
 ![alt text](<Screenshot 2025-07-03 115900.png>)
 ![alt text](<Screenshot 2025-07-03 115928.png>)
 ![alt text](<Screenshot 2025-07-03 115939.png>)
