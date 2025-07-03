@@ -546,7 +546,7 @@ li{
   margin:8px;
 }
 
-i{
+.social-list-link > li > a > i{
   color: white;
 }
 
