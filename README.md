@@ -31,7 +31,6 @@ To practice HTML and CSS by recreating a real-world landing page layout.
 ![alt text](<Screenshot 2025-07-03 115900.png>)
 ![alt text](<Screenshot 2025-07-03 115928.png>)
 ![alt text](<Screenshot 2025-07-03 115939.png>)
-![alt text](<Screenshot 2025-07-03 120531.png>)
 ![alt text](<Screenshot 2025-07-03 120008.png>)
 ![alt text](<Screenshot 2025-07-03 120017.png>)
 ---
